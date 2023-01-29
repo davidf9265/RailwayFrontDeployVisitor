@@ -17,7 +17,7 @@ RUN npm install --force --legacy-peer-deps
 EXPOSE 3000
 
 #build
-RUN npm build
+RUN npm run build
 
 #run
 CMD ["npm","run", "startprod"]
