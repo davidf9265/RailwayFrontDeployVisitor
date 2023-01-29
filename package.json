@@ -84,7 +84,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "npm install --force --legacy-peer-deps && craco build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
