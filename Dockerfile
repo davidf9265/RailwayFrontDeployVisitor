@@ -16,5 +16,8 @@ RUN npm install --force --legacy-peer-deps
 #expose
 EXPOSE 3000
 
+#build
+RUN npm build
+
 #run
-CMD ["npm","run", "start", "--max-old-space-size"]
+CMD ["npm","run", "startprod"]

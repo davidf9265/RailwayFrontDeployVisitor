@@ -83,8 +83,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "craco start --max-old-space-size",
-    "build": "npm install --force --legacy-peer-deps && craco build",
+    "start": "craco start",
+    "startprod": "npx http-server ./build",
+    "build": "craco build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
